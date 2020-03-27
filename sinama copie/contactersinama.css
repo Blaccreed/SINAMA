@@ -1,0 +1,46 @@
+body
+{
+  background-color: black;
+  color: white;
+  display:block;
+  position:static;
+
+
+}
+.navbar
+{
+  margin-top: 100px;
+  width: 100%;
+}
+
+
+img{
+margin-top: 0px;
+position:static;
+float: right;
+}
+
+.collapse navbar-collapse
+{
+  display: block;
+}
+
+<style>
+.contenant {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+}
+.flotte {
+float:left;
+}
+
+.clear {clear: both;}
