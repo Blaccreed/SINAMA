@@ -7,12 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="contactersinama.css" >
+    <link rel="stylesheet" href="inscriptionsinama.css" >
     <title>Sinama</title>
   </head>
   <body>
-
-    <div class="body2">
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
 <a class="btConnexion" href="pageConnexion.html" >&nbsp;CONNEXION&nbsp;</a>
 <img src="logociné2.png" alt="" width="200" />
@@ -45,7 +43,7 @@
         <a class="nav-link" href="#">TARIFS<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="contactersinama.html">NOUS CONTACTER<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">NOUS CONTACTER<span class="sr-only">(current)</span></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -54,37 +52,55 @@
     </form>
   </div>
 </nav>
-</div>
 
 <!-- image qui défile sur les évènements et autres PROMOTIONS et OFFRES-->
-< src="Salle-cinema-vide-776x390.jpg" alt="Nouveau !" />
-<CENTER>
-<div style="width: 800px;  display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px solid black; text-align: center; background: #353A3F; border-radius: 5px;">
-</br>
-<p>
- <b><font color="red" size=+3 >Nous contacter</font></p></b>
- </p>
- Besoin de conseils ou d'informations, nous sommes là pour vous aider.
-</br>
-</br>
-<b><font color="red" size=+3 >Service client</font></p></b>
-Vous souhaitez obtenir des informations
-</br>
-Vous pouvez nous joindre :
-</br>
-</br>
-<li>Par téléphone :</li>
-Nous sommes disponibles du lundi au vendredi de 8h à 19h et le samedi de 8h à 12h.
-</br>
-09 69 391 391 (appel non surtaxe)
-</br>
-</br>
-<li>Par email:</li>
-sinama@hotmail.fr
-</br>
-</br>
+
+<div style="text-align: center; width: 200px; margin : auto;">
+<br>
+<h2>Inscription</h2>
+<form class="needs-validation" novalidate>
+  <div class="nomETprenom">
+  <div class="form-row">
+
+    <div class="col-md-4 mb-3" style="min-width:215px;">
+      <label  for="validationCustom01">Nom</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Entrez votre NOM" required>
+    </div>
+
+    <div class="col-md-4 mb-3" style="min-width:215px;">
+      <label for="validationCustom02">Prenom</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Entrez votre PRENOM" required>
+    </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Adresse email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+  </div>
 </div>
-</CENTER>
+  <div class="form-group">
+<label for="inputPassword5">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+
+<small id="passwordHelpBlock" class="form-text text-muted">  Votre mot de passe doit comporter de 8 à 20 caractères, contenir des lettres et des chiffres, et ne doit pas contenir d'espaces, de caractères spéciaux ou d'emoji.</small>
+</div>
+</br>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Accepter les termes et conditions
+      </label>
+    </div>
+  </div>
+</div>
+
+<a href="pageaccueilsinama.html"><button type="button" class="btn btn-success"style="width: 13rem; margin-top: 30px; margin-bottom: 80px;">Soumettre le formulaire</button></a>
+
+</div>
+</form>
+
+</br>
 
 </body>
 </html>
